@@ -6,10 +6,10 @@ def line(list)
   if list.length < 1
     puts "The line is currently empty."
   else
-    count = 1
+    count = 0
     formatted = ""
     while count < list.length
-      formatted += "#{count.to_s}. " + list[count] + " "
+      formatted += "#{count.to_s}. " + list[count + 1] + " "
       count += 1
     end
     puts "The line is currently: #{formatted}"
