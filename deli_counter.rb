@@ -1,6 +1,6 @@
 # Write your code here.
 
-katz_deli = []
+#katz_deli = []
 
 def line(list)
   if list.length < 1
