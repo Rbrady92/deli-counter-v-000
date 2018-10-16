@@ -9,7 +9,7 @@ def line(list)
     count = 1
     formatted = ""
     while count < list.length
-      formatted += "#{count.to_s}. " + list[count]
+      formatted += "#{count.to_s}. " + list[count] + " "
       count += 1
     end
     puts "The line is currently: #{formatted}"
