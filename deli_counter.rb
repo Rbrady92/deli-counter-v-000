@@ -8,7 +8,7 @@ def line(list)
   else
     count = 1
     formatted = ""
-    while count < list.length
+    while count < list.length + 1
       formatted.concat("#{count.to_s}. #{list[count - 1]} ")
       count += 1
     end
