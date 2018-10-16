@@ -3,7 +3,7 @@
 katz_deli = []
 
 def line(list)
-  if list.length < 1 
+  if list.length < 1
     puts "The line is currently empty."
   else
     count = 1
@@ -11,14 +11,14 @@ def line(list)
     while count < list.length
       formatted.push("#{count.to_s}. " + list[count])
       count += 1
-    end 
+    end
     puts "The line is currently: #{formatted}"
-  end 
+  end
 end
 
 def take_a_number(list, name)
   puts "Welcome, #{name}. You are number #{array.length + 1} in line."
-end 
+end
 
 def now_serving(list)
   puts "Currently serving #{list[0]}"
