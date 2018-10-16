@@ -17,7 +17,7 @@ def line(list)
 end
 
 def take_a_number(list, name)
-  puts "Welcome, #{name}. You are number #{array.length + 1} in line."
+  puts "Welcome, #{name}. You are number #{list.length + 1} in line."
   list << name
 end
 
