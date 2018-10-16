@@ -9,7 +9,7 @@ def line(list)
     count = 1
     formatted = ""
     while count < list.length
-      formatted.push("#{count.to_s}. " + list[count])
+      formatted += "#{count.to_s}. " + list[count]
       count += 1
     end
     puts "The line is currently: #{formatted}"
@@ -23,4 +23,4 @@ end
 def now_serving(list)
   puts "Currently serving #{list[0]}"
   list.shift()
-end 
+end
