@@ -18,6 +18,7 @@ end
 
 def take_a_number(list, name)
   puts "Welcome, #{name}. You are number #{array.length + 1} in line."
+  list << name
 end
 
 def now_serving(list)
